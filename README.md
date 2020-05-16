@@ -1,6 +1,8 @@
-## MODULE NAME
+## (Write your module name here)
 
-<Describe your module here>
+This is a template Javascript ES6 npm module. Copy and adapt as needed.
+
+(Describe your module in this paragraph.)
 
 ### CLI commands
 
