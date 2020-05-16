@@ -1,7 +1,7 @@
 {
-  "name": "write-your-module-name-here",
+  "name": "es6-npm-module-template",
+  "description": "Update name and description here",
   "version": "1.0.0",
-  "description": "write-your-description-here",
   "author": {
     "name": "David Ryan",
     "email": "davidryan1998@hotmail.com",
