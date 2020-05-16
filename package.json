@@ -1,0 +1,37 @@
+{
+  "name": "write-your-module-name-here",
+  "version": "1.0.0",
+  "description": "write-your-description-here",
+  "author": {
+    "name": "David Ryan",
+    "email": "davidryan1998@hotmail.com",
+    "url": "https://github.com/davidryan59"
+  },
+  "repository": "git@github.com:davidryan59/es6-npm-module-template.git",
+  "license": "ISC",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix",
+    "test": "jest --test-path-pattern=lib/test --watch-all=true --coverage=true",
+    "test:ppo": "jest --test-path-pattern=lib/test",
+    "build": "rm -rf dist && mkdir -p dist && babel lib --out-dir dist",
+    "examples": "cd ./dist/examples && node run.js",
+    "prepublishOnly": "npm run lint && npm run build && npm run test:ppo"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1"
+  },
+  "keywords": [
+    "es",
+    "module",
+    "npm",
+    "template"
+  ]
+}

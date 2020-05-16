@@ -1,0 +1,8 @@
+.DS_Store
+.nyc_output
+.sonarlint
+coverage
+dist
+node_modules
+removed*
+temp*
