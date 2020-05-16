@@ -1,5 +1,7 @@
 ## (Write your module name here)
 
+[![Build status](https://travis-ci.org/davidryan59/es6-npm-module-template.svg?master)](https://travis-ci.org/davidryan59)
+
 This is a template Javascript ES6 npm module. Copy and adapt as needed.
 
 (Describe your module in this paragraph.)
